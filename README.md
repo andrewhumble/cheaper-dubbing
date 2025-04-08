@@ -6,14 +6,18 @@ This project aims to resolve this issue by performing transcription, translation
 
 ## Requirements
 - Required Python packages:
-  - `whisper`
   - `requests`
-  - `pydub`
   - `openai`
+  - `whisper`
+  - `elevenlabs`
+  - `python-dotenv`
+  - `moviepy`
+  - `pydub`
+  - `ffmpeg`
 
 You can install the required packages using pip:
 ```bash
-pip install whisper requests pydub openai
+pip install requests openai whisper elevenlabs python-dotenv moviepy pydub ffmpeg
 ```
 
 ## Installation
