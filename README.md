@@ -2,7 +2,7 @@
 
 ElevenLabs continues to pioneer the world of text-to-speech, but it comes at a cost. For dubbing, this price quickly becomes a barrier for many use cases at a cost of 3000 credits/minute. For ElevenLab's "Starter" plan, this means users have only 10 minutes of dubbing capability.
 
-CheaperDubbing aims to resolve this issue by performing transcription, translation, and alignment manually, followed by the usage of ElevenLabs' text-to-speech API (which is much cheaper than their dubbing feature) to create the final audio. With this approach, dubbing generations are achieved at a cost of 761 credits/minute, translating to **75% cheaper** credit consumption and **3.94x capacity** for "Starter" dubbing usage. 
+This project aims to resolve this issue by performing transcription, translation, and alignment manually, followed by the usage of ElevenLabs' text-to-speech API (which is much cheaper than their dubbing feature) to create the final audio. With this approach, dubbing generations are achieved at a cost of 761 credits/minute, translating to **75% cheaper** credit consumption and **3.94x capacity** for "Starter" dubbing usage. 
 
 ## Requirements
 - Required Python packages:
@@ -37,7 +37,7 @@ pip install whisper requests pydub openai
    Replace `your_elevenlabs_api_key` and `your_openai_api_key` with your actual API keys. You can create these keys from https://elevenlabs.io/app/settings/api-keys and https://platform.openai.com/api-keys.
 
 ## Usage
-To use the CheaperDubbing script, run the following command in your terminal:
+To use this script, run the following command in your terminal:
 ```bash
 python main.py <path_to_audio_file>
 ```
