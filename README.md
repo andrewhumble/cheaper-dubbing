@@ -44,6 +44,14 @@ python main.py <path_to_audio_file>
 - Replace `<path_to_audio_file>` with the path to your input audio file. If no path is provided, it defaults to `trimmed_english.mp4`.
 - The output will be saved as `<input_audio_file_name>_output.mp3` in the same directory.
 
+### Arguments
+The script accepts the following optional arguments:
+
+- `--target_language`: Specify the target language for translation (default is "Spanish").
+- `--keep_background`: Use this flag to keep the background audio while removing vocals (default is False).
+- `--output_dir`: Specify the directory to save output files (defaults to the same directory as the input).
+- `--use_voice_clone`: Use this flag to enable the voice cloning feature (default is False).
+
 ### Example
 ```bash
 python main.py my_audio.mp4
